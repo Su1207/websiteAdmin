@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-width: none;
+  font-family: "Inter", sans-serif !important;
+}
+
+/* Hide scrollbar for Webkit/Blink */
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  caret-color: transparent;
+  outline: none !important;
+  cursor: default;
+  scroll-behavior: smooth;
+}
+
+input {
+  caret-color: auto !important;
+}
+
+.admin-column {
+  .arrow-icon {
+    transition: transform 0.3s ease-in-out;
+  }
+}
+
+.admin {
+  .arrow-icon {
+    transform: rotate(-180deg);
+  }
+}
+
+.no-data {
+  background: transparent;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .no-data-img {
+    height: 300px;
+    border-radius: 50%;
+  }
+}
+
+.css-1961ak2-MuiTypography-root {
+  font-weight: 600 !important;
+  font-size: 1.3rem !important;
+  animation: bg 2s ease-in-out infinite;
+}
+
+@keyframes bg {
+  0% {
+    color: plum;
+  }
+  50% {
+    color: peru;
+  }
+  100% {
+    color: orange;
+  }
+}
