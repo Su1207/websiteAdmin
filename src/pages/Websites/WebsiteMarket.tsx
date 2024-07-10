@@ -336,7 +336,7 @@ const WebsiteMarket = () => {
         </div>
       ) : result ? (
         <div className="overflow-x-auto">
-          <table className="w-full text-sm text-left border rtl:text-right text-gray-700 outline-none border-none">
+          <table className="w-full bg-white text-sm text-left border rtl:text-right text-gray-700 outline-none border-none">
             <thead className="text-sm text-white uppercase bg-blue-500">
               <tr>
                 <th scope="col" className="px-6 py-3">
