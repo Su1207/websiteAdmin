@@ -9,7 +9,7 @@
     "skipLibCheck": true,
 
     /* Bundler mode */
-    "moduleResolution": "bundler",
+    "moduleResolution": "node",
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
@@ -21,7 +21,16 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    /* Allow Synthetic Imports */
+    "allowSyntheticDefaultImports": true,
+
+    /* Paths for Firebase */
+    "baseUrl": ".", // Added this line to set the baseUrl
+    "paths": {
+      "firebase": ["src/firebase"] // Adjusted path based on baseUrl
+    }
   },
   "include": ["src"]
 }
